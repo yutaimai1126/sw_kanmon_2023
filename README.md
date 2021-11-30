@@ -9,6 +9,9 @@ docker compose build --no-cache
 # コンテナ起動
 docker compose up
 
+# イメージ作成＋コンテナ起動
+docker compose up -d --build
+
 # バックグラウンドでコンテナ起動
 docker compose up -d
 

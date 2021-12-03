@@ -1,5 +1,7 @@
 # flask_example
 
+databaseディレクトリにdataディレクトリを作成します。
+
 ## docker composeを使った場合のコマンド一覧
 
 ```bash

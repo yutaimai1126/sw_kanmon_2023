@@ -1,2 +1,2 @@
-# SW関門2023
-## docker+Flask+uwsgi+postgreのwebアプリ
+# SW kanmon2023
+## webapp : docker+Flask+uwsgi+postgre

@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 def pg_conn():
     setting = {
-        'host': 'flask_db', # dbコンテナ名を指定
+        'host': 'sw_kanmon_db', # dbコンテナ名を指定
         'port': '5432',
         'dbname': 'postgres',
         'user': 'postgres',
@@ -33,3 +33,4 @@ def red():
 
 if __name__ == "__main__":
     app.run()
+
